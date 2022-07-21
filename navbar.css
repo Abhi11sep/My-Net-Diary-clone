@@ -1,0 +1,227 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cabin', sans-serif;
+   overflow-x: hidden;
+}
+#Mtop{
+    width: 100%;
+    background-color :#09a246;
+    height: 25px;
+}
+#nav2{
+    z-index: 2;
+    padding-top: 15px;
+}
+#nav3{
+    padding-top: 15px;
+}
+#top{
+    width: 100%;
+    background-color :#09a246;
+  color: #212529;
+  border-radius: 0 0 5% 5%/0 0 10% 10%;
+  
+  height: 850px;
+  position: sticky;
+  /* border: 1px solid red; */
+}
+#top>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#nav1>img{
+    width: 300px;
+    padding: 10px 40px;
+    /* border: 1px solid red; */
+}
+
+#nav2>ul{
+    position: relative;
+  
+    list-style: none; 
+    margin: 20px 0px 0px -200px;
+    /* border: 1px solid red; */
+}
+#nav2>ul>li>a:hover{
+ color: orange;
+ border-radius: 5px;
+ background-color: azure;
+ padding: 15px;
+ 
+}
+#nav2>ul>li>a{
+    text-decoration: none;
+    font-size: 22px;
+    color:white;
+    padding: 0px 15px;
+    font-weight: 600;
+    line-height: 32px;
+
+}
+#nav2 ul li{
+    position: relative;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+#nav2 ul ul{
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    top: 100%;
+    left: 0;
+}
+#nav2 ul ul li{
+    float: none;
+    width: 300px;
+
+}
+#nav2 ul li:hover > ul{
+    display: block;
+}
+#nav2 ul li ul{
+    display: none;
+}
+
+#nav2 ul li ul li{
+   margin: 5px 5px;
+   border-radius: 5px;
+      
+    }
+#nav2 ul li ul li:hover{
+background-color: orange;
+color: white; 
+}
+
+#nav2 ul li ul li:hover >#nav ul li{
+   background: white;
+   color: orange;
+    }
+#nav2 ul li:hover{
+   background: white;
+    color:orange;
+    
+      
+    }
+
+
+
+#nav2>ul>li>ul>li>a{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 0px 15px;
+    font-weight: 600;
+    line-height: 32px;
+
+}
+
+#nav3>button{
+    border-radius: 35px;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid  #0bb700;
+    margin: 8px;
+    
+    
+}
+
+#nav3{
+   align-items: center;
+    margin-right: 30px;
+}
+
+#nav3>button:first-child{
+    background-color: orange;
+}
+#nav3>button:first-child:hover{
+    background-color: rgb(234, 186, 97);
+}
+
+#nav3>button:last-child{
+    background-color: transparent;
+}
+#img1{
+    position: absolute;
+    width: 70px;
+    top: 150px;
+    left: 20px;
+}
+#img2{
+   position: absolute;
+   top: 150px;
+   left: 450px;
+    width: 590px;
+}
+
+#img3{
+    position: absolute;
+    top: 90px;
+    right: 0px;
+    width: 500px;
+}
+#img4{
+    position: absolute;
+    right: 150px;
+    top: 500px;
+    width: 420px;
+}
+#tagline{
+    position: absolute;
+    top: 180px;
+   color: white;
+    font-size: 48px;
+    line-height: 90px;
+    
+    padding: 40px;
+    font-weight: bolder;
+    width: 30%;
+}
+#innertagline{
+    position: absolute;
+    top: 420px;
+   
+    font-size: 30px;
+    line-height: 40px;
+    color:  #fcf8b3;
+    padding: 40px;
+    font-weight: bolder;
+    width: 23%;
+}
+#applelogo{
+    position: absolute;
+    width: 200px;
+    top: 630px;
+    left: 40px;
+}
+
+#playstore{
+    position: absolute;
+    width: 200px;
+    top: 630px;
+    left: 260px;
+}
+#ratings{
+    color: rgb(84, 83, 83);
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.checked {
+    color: orange;
+  }
+.ratinglogo svg{
+    color: rgb(84, 83, 83);
+    margin-right: 10px;
+   width: 30px;
+   font-size: 20px;
+ display: inline;
+}
+
+.ratinglogo{
+    color: rgb(84, 83, 83);
+    margin-top: -20px;
+    word-spacing: 1px;
+}
