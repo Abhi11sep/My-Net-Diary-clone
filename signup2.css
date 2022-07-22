@@ -1,0 +1,156 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Cabin', sans-serif;
+    overflow-x: hidden;
+}
+#img1 {
+    position: absolute;
+    top: -80px;
+    left: 30px;
+    width: 96%;
+}
+
+#img2 {
+    position: absolute;
+    width: 260px;
+    top: 15px;
+    left: 620px;
+}
+#main {
+    width: 47%;
+    height: 700px;
+    top: 90px;
+    left: 230px;
+    position: absolute;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 25px;
+    padding: 0px 180px;
+    font-size: 20px;
+    line-height: 30px;
+    /* border: 1px solid blue; */
+    
+}
+#main>p{
+    text-align: center;
+    margin: -30px;
+    color: #46618a;
+}
+
+#main>h1 {
+    padding: 10px;
+    color: #268fd0;
+    font-size: 45px;
+    text-align: center;
+}
+#box{
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    height: auto;
+    width: 40%;
+    margin: 50px auto;
+    /* border: 1px solid red; */
+    /* line-height: 15px; */
+   
+}
+#box>input{
+    width: 90%;
+    padding: 0px;
+    margin: 0px 0px;
+}
+#box>div{
+    /* margin: -10px; */
+    width: 90%;
+   border-radius: 5px;
+}
+h4{
+    color: #268fd0;
+    text-align: center;
+}
+form select{
+    border: none;
+    border-bottom: 2px solid silver;
+}
+#box>button{
+    width: 30%;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 5px;
+    margin: 40px 120px;
+    font-size: 20px;
+    background-color: #268fd0;
+    color: white;
+    padding: 10px 0px;
+}
+
+#top {
+    background-color: #09a246;
+    width: 100%;
+   height: 600px;
+   /* border: 1px solid blue; */
+}
+#bottom{
+    z-index: -1;
+    position: absolute;
+    top: 460px;
+    left: 0px;
+  text-align: center;
+    height: 30px;
+    width: 100%;
+    padding: 330px 0px 70px 0px;
+margin: auto;
+}
+
+#bottom>p{
+    font-size: 20px;
+}
+a{
+   color:  #09a246; 
+}
+select{
+    padding: 5px;
+    font-size: 20px;
+}
+label{
+    color: #268fd0;
+    margin:15px;
+}
+option{
+    padding: 5px;
+    font-size: 20px;
+}
+#box>div:nth-child(2){
+    margin: 25px auto;
+    line-height: 35px;
+    margin-top: 25px;
+}
+
+#btn1{
+    position: absolute;
+    top: 400px;
+    left: 450px;
+    font-size: 20px;
+    color: white;
+    background-color: #268fd0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+#btn2{
+    position: absolute;
+    top: 630px;
+    left: 40px;
+    font-size: 14px;
+    background-color: white;
+    color: #268fd0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+span{
+    color: #268fd0;
+}

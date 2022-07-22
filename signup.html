@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600&family=Open+Sans&family=Roboto:wght@300&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="signup.css" />
+</head>
+
+<body>
+    <div id="top">
+        <img id="img1" src="https://s3.amazonaws.com/img.mynetdiary.com/images/bg-start-signup@2x.png" alt="" />
+        <img id="img2" src="https://s3.amazonaws.com/img.mynetdiary.com/images/logo-main.svg" alt="" />
+        <div id="main">
+            <h1>Sign Up: Your Weight Plan</h1>
+            <div id="box">
+                <input type="number" id="oldwt" placeholder="How much do you weight?">
+                <input type="number" id="newwt" placeholder="What is your target weight?">
+                <h4>Enter the values in kilograms</h4>
+                <p id="desire">Your desired progress</p>
+                <div id="rates">
+                    <input type="radio" id="a" name="rate" value="1">1 kg per week <br>
+                    <input type="radio" id="b" name="rate" value="1.5"> 1<sup>1</sup>/<sub>2</sub> kg per week <br>
+                    <input type="radio" id="c" name="rate"  value="2">2 kg per week
+                </div>
+                <p id="show"></p>
+                <button id="submit" onclick="location.href='signup2.html'">NEXT</button>
+               
+            </div>
+        </div>
+    </div>
+
+    <div id="bottom">
+        <p>By signing up, you are agreeing to the <a href="">Terms of Service</a> </p>
+
+    </div>
+
+</body>
+<script src="signup.js"></script>
+
+</html>
